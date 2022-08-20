@@ -84,6 +84,13 @@ and remove the words which are greater than or equal to 15 or less than or equal
 
 17. Now You got Preprocessed Text, email, subject. create a dataframe with those.
 
+## Model Architecture
+
+![multi_input_and_output_model](https://user-images.githubusercontent.com/58303643/185766710-6a2a3fc3-d8fe-4e09-a58e-9936b6c333ea.png)
+
+### Accuracy Plot
+
+![text_cnn_acc_plot](https://user-images.githubusercontent.com/58303643/185766715-d51a55a8-5634-4046-818a-8a0861c3e9f1.png)
 
 
 
