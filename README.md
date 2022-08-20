@@ -66,6 +66,26 @@ ree('GPE', [('New', 'NNP'), ('York', 'NNP')])]
 > My name is Srikanth Varma --> [('My', 'PRP$'), ('name', 'NN'), ('is', 'VBZ'), Tree('PERSON', [('Srikanth', 'NN
 P'), ('Varma', 'NNP')])]
 
+12. Replace all the digits with space i.e delete all the digits.
+
+13. After doing above points, we observed there might be few word's like
+ "_word_" (i.e starting and ending with the _), "_word" (i.e starting with the _),
+ "word_" (i.e ending with the _) remove the _ from these type of words.
+
+14. We also observed some words like "OneLetter_word"- eg: d_berlin,
+"TwoLetters_word" - eg: dr_berlin , in these words we remove the "OneLetter_" (d_berlin ==> berlin) and
+"TwoLetters_" (de_berlin ==> berlin). i.e remove the words
+which are length less than or equal to 2 after spliiting those words by "_".
+
+15. Convert all the words into lower case and lowe case
+and remove the words which are greater than or equal to 15 or less than or equal to 2.
+
+16. replace all the words except "A-Za-z_" with space.
+
+17. Now You got Preprocessed Text, email, subject. create a dataframe with those.
+
+
+
 
 
 
